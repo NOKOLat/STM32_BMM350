@@ -11,8 +11,7 @@ https://github.com/boschsensortec/BMM350_SensorAPI
 - Core/Lib/BMM350_SensorAPIはこのリポジトリのものを使用しています
 - この部分のライセンスは、このリポジトリの記述に従います
 
-- STM32CubeIDEによる自動生成ファイル（ライブラリなど）については
-- ST公式のライセンスを参照してください
+- STM32CubeIDEによる自動生成ファイル（ライブラリなど）については、ST公式のライセンスを参照してください
 
 ## 実装環境について
 
