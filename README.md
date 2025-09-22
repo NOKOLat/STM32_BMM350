@@ -9,7 +9,7 @@ BMM350SensorAPI
 https://github.com/boschsensortec/BMM350_SensorAPI
 
 - Core/Lib/BMM350_SensorAPIはこのリポジトリのものを使用しています
-- ライセンスは、このリポジトリに合わせて、BSD-3-Clauseライセンスを使用します
+- この部分のライセンスは、このリポジトリの記述に従います
 
 ## 実装環境について
 
