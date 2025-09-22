@@ -1,0 +1,109 @@
+# Git ignore for STM32F4 project F446RE_BMM350
+
+# Build directories
+Debug/
+build/
+Build/
+Release/
+
+# Object files and compiled outputs
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.su
+*.d
+*.axf
+*.dSYM/
+
+# Make, CMake and other generated files
+Makefile
+makefile
+cmake_install.cmake
+CMakeFiles/
+
+# IDE and editor files
+.vscode/
+*.user
+*.suo
+*.userprefs
+*.code-workspace
+*.code-workspace
+*.project
+*.cproject
+/.vscode/
+
+# Keil, IAR and other toolchain files
+*.uvproj*
+*.uvopt*
+*.eww
+*.ewp
+*.ewt
+
+# STM32CubeMX generated files (optionally ignored if you want to keep .ioc)
+*.ioc_generated
+
+# Backup and temporary files
+*~
+*.swp
+*.tmp
+*.bak
+*.backup
+.
+
+# Logs
+*.log
+
+# Core dumps
+core
+*.core
+
+# Binary images and intermediate output
+*.axf
+*.hex
+*.bin
+
+# Dependency and object lists
+objects.list
+objects.mk
+sources.mk
+
+# Drivers build outputs (keep Drivers sources but ignore compiled outputs)
+Drivers/**/Src/*.o
+Drivers/**/Src/*.d
+Drivers/**/Src/*.su
+Drivers/**/Src/*.obj
+Drivers/**/Src/*.axf
+
+# Debug folder contents
+Debug/**
+
+# Logs and temporary build artifacts
+*.log
+
+# Generated startup files
+Core/Startup/*.o
+Core/Startup/*.d
+
+# System and toolchain generated files
+*.lst
+*.dep
+.depend
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python artifacts (in case any scripts are used)
+__pycache__/
+*.pyc
+
+# Misc
+*.swp
